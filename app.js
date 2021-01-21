@@ -2,7 +2,7 @@ const userSearch = document.getElementById('movieSearch')
 const submit = document.getElementById("search-addon")
 
 const movieFinder = () => {
-  const url = `http://www.omdbapi.com/?i=&s=${userSearch.value}&page=2&apikey=cc68ca75`
+  const url = `http://www.omdbapi.com/?i=&s=${userSearch.value}&page=2&apikey=`
 
   fetch(url, {
     method: "POST",
