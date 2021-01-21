@@ -1,0 +1,56 @@
+body {
+  font-family: serif;
+}
+
+.jumbotron {
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1580478341213-659047bb025c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80");
+  background-position-y: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.jumbotron h1 {
+  margin-top: 11%;
+  color: #FFFF;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.jumbotron h5 {
+  color: #FFFF;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.jumbotron label {
+  color: #FFFF;
+  font-size: 17px;
+}
+
+.jumbotron form {
+  margin-top: 3.5%;
+}
+
+#movieSearch {
+  width: 500px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.card {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  border: 1px gray solid;
+  width: 40rem;
+}
+
+.buttonLearnMore {
+  width: 20rem;
+  border-radius: 20px;
+  background-color: #863A3D;
+  color:#FFF;
+  border: none;
+}
